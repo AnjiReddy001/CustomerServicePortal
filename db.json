@@ -1,0 +1,14 @@
+{
+    "customerService": [
+        {
+        "customerName": "Andru",
+        "address": "Hyderabad",
+        "country": "India",
+        "dob": "2002/07/09",
+        "pancard": "BTBON52319P",
+        "emailAddress": "andru.json43@gmail.com",
+        "contactNo": 8679785643,
+        "status": "yes"
+    }
+    ]
+}
