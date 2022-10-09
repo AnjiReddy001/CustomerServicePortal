@@ -6,11 +6,12 @@ import { UserLoginComponent } from './components/user-login/user-login.component
 import { UserRegistrationComponent } from './components/user-registration/user-registration.component';
 
 
-const routes: Routes = 
-[{path:"user-login", component:UserLoginComponent},
-{path:"navbar", component:NavbarComponent},
-{path:"user-registration", component:UserRegistrationComponent},
-{path:"customer", component:CustomerComponent}];
+const routes: Routes =
+  [{ path: '', redirectTo: 'user-login', pathMatch: 'full' },
+  { path: 'user-login', component: UserLoginComponent },
+  { path: 'navbar', component: NavbarComponent },
+  { path: 'user-registration', component: UserRegistrationComponent },
+  { path: 'customer', component: CustomerComponent }];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
